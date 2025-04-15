@@ -1,0 +1,91 @@
+.container {
+  padding: 80px 120px 0px 120px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+
+.heroTitleDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  font-family: "barlow";
+  height: 261px;
+  width: 666px;
+  margin-top: 80px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.descriptionHead {
+  font-size: 54px;
+  font-weight: 700;
+  color: #30404d;
+}
+
+.descriptionPara {
+  font-size: 16px;
+  font-weight: 400;
+  color: #30404d;
+  width: 623px;
+}
+
+.actionBtn {
+  display: flex;
+  flex-direction: row;
+  font-family: "barlow";
+  gap: 32px;
+  align-items: center;
+}
+
+.getstartedBtn {
+  border: none;
+  padding: 12px 24px;
+  display: flex;
+  font-family: "barlow";
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #244779;
+  color: white;
+  cursor: pointer;
+}
+
+.watchBtn {
+  border: none;
+  background-color: #f8fbfe;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #30404d;
+  cursor: pointer;
+}
+
+.heroImageDiv {
+  width: 492.3;
+  height: 577.25;
+  position: relative;
+}
+
+.heroTopImage {
+  position: absolute;
+  z-index: 99;
+  top: -50px;
+  left: 320px;
+}
+.heroRightImage {
+  position: absolute;
+  z-index: 99;
+  bottom: 100px;
+  left: 400px;
+}

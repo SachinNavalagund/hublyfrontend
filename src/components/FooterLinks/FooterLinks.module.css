@@ -1,0 +1,43 @@
+.footerLinksDiv {
+  padding-left: 108px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.footerLinksSeparateDiv {
+  width: 300px;
+  height: 238px;
+  font-family: "inter";
+}
+
+.linkHead {
+  padding-top: 12px;
+  font-family: "inter";
+  font-size: 17.16px;
+  font-weight: 500;
+  color: #1b1a1a;
+  box-sizing: border-box;
+}
+
+.linksDiv {
+  padding-top: 18px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+  height: 180px;
+}
+
+.link {
+  font-size: 16.73px;
+  font-weight: 400;
+  height: 28;
+}

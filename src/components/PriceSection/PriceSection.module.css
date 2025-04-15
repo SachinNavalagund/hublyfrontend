@@ -1,0 +1,32 @@
+.container {
+  padding: 0px 120px 80px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+  font-family: "barlow";
+}
+
+.priceDes {
+  width: 711px;
+  height: 127px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-family: "barlow";
+}
+
+.priceDesHead {
+  font-size: 44px;
+  font-weight: 700;
+  color: #30404d;
+  text-align: center;
+}
+.priceDesPar {
+  font-size: 18px;
+  font-weight: 400;
+  color: #30404d;
+  text-align: center;
+  width: 625px;
+}

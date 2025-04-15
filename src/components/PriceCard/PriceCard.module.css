@@ -1,0 +1,109 @@
+.priceCardDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  width: 1200px;
+  height: 709px;
+  margin-top: 60px;
+}
+
+.priceCard {
+  padding: 36px;
+  box-sizing: border-box;
+  width: 588px;
+  height: 709px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #dfdfdf;
+  border-radius: 36px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 24px rgba(186, 186, 186, 0.1);
+}
+
+.priceHeadDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 516px;
+  height: 122px;
+  align-items: start;
+  box-sizing: border-box;
+}
+
+.priceHead {
+  font-size: 36px;
+  font-weight: 700;
+  color: #30404d;
+}
+
+.priceDes {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(48, 64, 77, 0.7);
+  width: 516px;
+}
+
+.priceDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: end;
+}
+
+.priceTag {
+  font-size: 54px;
+  font-weight: 700;
+  color: #3a7abd;
+}
+
+.priceDuration {
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #98a8b3;
+}
+
+.includedDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 18px;
+}
+
+.includedHead {
+  font-size: 18px;
+  font-weight: 700;
+  color: #30404d;
+}
+
+.includedList {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.includedListDetail {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.includedListName {
+  font-size: 18px;
+  font-weight: 500;
+  color: #30404d;
+}
+
+.priceActionBtn {
+  width: 516px;
+  height: 72px;
+  padding: 16px 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(36, 71, 121, 0.4);
+  border-radius: 64px;
+  background-color: white;
+  font-size: 18px;
+  font-weight: 600;
+  color: #244779;
+}

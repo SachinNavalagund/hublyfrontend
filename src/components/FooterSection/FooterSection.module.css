@@ -1,0 +1,27 @@
+.container {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  height: 666px;
+  padding: 75px 75px 75px 120px;
+  box-sizing: border-box;
+}
+
+.footerLogo {
+  display: flex;
+  flex-direction: row;
+  padding-top: 25px;
+  box-sizing: border-box;
+  height: 56;
+  width: 176;
+  text-align: center;
+  gap: 7px;
+}
+
+.footerCompanyName {
+  font-family: "inter";
+  font-size: 40px;
+  font-weight: 600;
+  color: #184e7f;
+}

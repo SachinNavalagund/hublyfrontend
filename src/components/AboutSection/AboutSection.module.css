@@ -1,0 +1,36 @@
+.container {
+  padding: 80px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutDes {
+  width: 725px;
+  height: 205px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  font-family: "barlow";
+}
+
+.aboutDesHead {
+  font-size: 44px;
+  font-weight: 700;
+  color: #30404d;
+  text-align: center;
+}
+.aboutDesPar {
+  font-size: 18px;
+  font-weight: 400;
+  color: #30404d;
+  text-align: center;
+}
+.aboutImage {
+  width: 1200px;
+  height: 512px;
+}

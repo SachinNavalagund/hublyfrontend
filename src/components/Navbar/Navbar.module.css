@@ -1,0 +1,58 @@
+.container {
+  width: 1440px;
+  height: 80px;
+  margin-left: auto;
+  margin-left: auto;
+  display: flex;
+  padding: 10px 120px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: #f8fbfe;
+}
+
+.navImageDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.companyName {
+  font-family: "inter";
+  font-weight: 600;
+  font-size: 40px;
+  color: #184e7f;
+}
+
+.authButtonDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+}
+
+.loginBtn {
+  border: none;
+  background-color: #f8fbfe;
+  color: #36364a;
+  font-size: 16px;
+  font-family: "barlow";
+  font-weight: 500;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.signUpBtn {
+  background-color: #244779;
+  color: white;
+  font-size: 16px;
+  font-family: "barlow";
+  font-weight: 500;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+}
