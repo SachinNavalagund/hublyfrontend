@@ -1,0 +1,109 @@
+.loginFormDiv {
+  width: 640px;
+  padding-left: 160px;
+  padding-bottom: 124px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  padding-top: 38px;
+  font-family: "poppins";
+}
+
+.loginForm {
+  width: 592px;
+  height: 440.5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formHead {
+  font-family: "poppins";
+  font-weight: 600;
+  font-size: 27px;
+  padding-top: 13px;
+  color: black;
+}
+
+.form {
+  width: 588px;
+  padding-top: 45px;
+  height: 246px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 13.5px;
+}
+
+.inputDiv {
+  width: 588px;
+  height: 61.5px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.inputLabel {
+  font-size: 13px;
+  color: #666666;
+  font-weight: 400;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #666666;
+  border-radius: 8.5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.submitBtn {
+  width: 592px;
+  height: 48px;
+  border: none;
+  border-radius: 64px;
+  color: white;
+  background-color: #c3c3c3;
+}
+
+.forgotLink {
+  padding-top: 34px;
+  text-align: center;
+  font-family: "inter";
+  font-size: 14px;
+  font-weight: 400;
+  box-sizing: border-box;
+  color: #244779;
+}
+.signUptext {
+  padding-top: 34px;
+  text-align: center;
+  font-family: "inter";
+  font-size: 14px;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+.signUplink {
+  color: #244779;
+}
+
+.loginFormBottomText {
+  padding-left: 24px;
+  font-family: "inter";
+  font-size: 12px;
+  font-weight: 400;
+  color: #676b5f;
+}
+
+.loginFormBottomText .googlePrivacyLink,
+.loginFormBottomText .termsOfService {
+  color: #676b5f;
+  text-decoration: underline;
+}

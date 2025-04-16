@@ -1,3 +1,36 @@
 .container {
-  background-color: blue;
+  display: grid;
+  grid-template-columns: 1fr 541px;
+  width: 1440px;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.navImageDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  padding-left: 45px;
+  padding-top: 45px;
+}
+
+.companyName {
+  font-family: "inter";
+  font-weight: 600;
+  font-size: 32px;
+  color: #184e7f;
+}
+
+.imageDiv {
+  height: 100%;
+  background-color: azure;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
