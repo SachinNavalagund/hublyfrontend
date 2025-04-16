@@ -1,9 +1,9 @@
 import { TiArrowRight } from "react-icons/ti";
 import styles from "./HeroSection.module.css";
 import { BsPlayCircle } from "react-icons/bs";
-import HeroImage from "../../../public/Hero.svg";
-import HeroTopImage from "../../../public/HeroTop2.svg";
-import HeroRightImage from "../../../public/HeroRight2.svg";
+import HeroImage from "/Hero.svg";
+import HeroTopImage from "/HeroTop2.svg";
+import HeroRightImage from "/HeroRight2.svg";
 
 const HeroSection = () => {
   return (

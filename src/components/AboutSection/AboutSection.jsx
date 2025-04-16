@@ -1,5 +1,5 @@
 import styles from "./AboutSection.module.css";
-import AboutImage from "../../../public/AboutImg.svg";
+import AboutImage from "/AboutImg.svg";
 
 const AboutSection = () => {
   return (

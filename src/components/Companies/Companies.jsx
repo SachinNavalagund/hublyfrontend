@@ -1,9 +1,9 @@
 import styles from "./Companies.module.css";
-import AdobeLogo from "../../../public/adobe logo.png";
-import ElasticLogo from "../../../public/elastic logo.png";
-import OpendoorLogo from "../../../public/opendoor logo.png";
-import AirtableLogo from "../../../public/airtable logo.png";
-import FramerLogo from "../../../public/framer logo.png";
+import AdobeLogo from "/adobe logo.png";
+import ElasticLogo from "/elastic logo.png";
+import OpendoorLogo from "/opendoor logo.png";
+import AirtableLogo from "/airtable logo.png";
+import FramerLogo from "/framer logo.png";
 
 const Companies = () => {
   return (

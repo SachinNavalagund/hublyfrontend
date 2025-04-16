@@ -1,5 +1,5 @@
 import styles from "./PriceCard.module.css";
-import CheckIcon from "../../../public/Check icon.svg";
+import CheckIcon from "/Check icon.svg";
 
 const PriceCard = () => {
   return (
