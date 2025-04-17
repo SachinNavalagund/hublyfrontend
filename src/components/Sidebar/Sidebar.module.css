@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+  border-right: 1px solid #d9d9d9;
+  font-family: "inter";
+}
+
+.logo {
+  padding: 15px 26px 15px 23px;
+  height: 75px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+}
+
+.iconWithNameDiv {
+  width: 100%;
+  height: 34px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  gap: 2px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.iconImage {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.avatarIcon {
+  margin-bottom: 15px;
+  margin-left: 35px;
+  margin-right: 35px;
+  width: 24px;
+  cursor: pointer;
+}

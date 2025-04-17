@@ -96,6 +96,7 @@
   font-weight: 400;
   color: #323232;
 }
+
 .checkbox {
   appearance: none;
   -webkit-appearance: none;
@@ -133,6 +134,9 @@
   border-radius: 64px;
   color: white;
   background-color: #c3c3c3;
+  cursor: pointer;
+  font-size: 15.5px;
+  font-weight: 500;
 }
 
 .signupFormBottomText {

@@ -65,7 +65,7 @@ const LoginForm = ({ loginFormData, setLoginFormData }) => {
         </form>
 
         {/* Links */}
-        <Link to="/forgot-password" className={styles.forgotLink}>
+        <Link to="#" className={styles.forgotLink}>
           Forgot password
         </Link>
         <p className={styles.signUptext}>
