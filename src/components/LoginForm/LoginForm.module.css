@@ -1,17 +1,20 @@
 .loginFormDiv {
   width: 640px;
-  padding-left: 160px;
-  padding-bottom: 124px;
+  margin-left: 160px;
+  margin-bottom: 124px;
   justify-content: space-between;
   display: flex;
   flex-direction: column;
   height: 75vh;
-  padding-top: 38px;
+  margin-top: 38px;
   font-family: "poppins";
+  box-sizing: border-box;
 }
 
 .loginForm {
   width: 592px;
+  margin-left: auto;
+  margin-right: auto;
   height: 440.5px;
   display: flex;
   flex-direction: column;

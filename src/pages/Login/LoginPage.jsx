@@ -8,8 +8,8 @@ import LoginForm from "../../components/LoginForm/LoginForm";
 const LoginPage = () => {
   const navigate = useNavigate();
 
-  const [form, setForm] = useState({
-    userName: "",
+  const [loginFormData, setLoginFormData] = useState({
+    email: "",
     password: "",
   });
 
@@ -20,7 +20,10 @@ const LoginPage = () => {
           <BsCloudHaze2 size={45} fill="#184e7f" />
           <span className={styles.companyName}>Hubly</span>
         </div>
-        <LoginForm form={form} setForm={setForm} />
+        <LoginForm
+          loginFormData={loginFormData}
+          setLoginFormData={setLoginFormData}
+        />
       </div>
       <div className={styles.imageDiv}>
         <img src={AuthImage} alt="" className={styles.image} />

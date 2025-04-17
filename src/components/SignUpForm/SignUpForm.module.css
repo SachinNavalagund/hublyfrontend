@@ -1,0 +1,150 @@
+.signupFormDiv {
+  width: 592px;
+  margin-left: 184px;
+  margin-bottom: 124px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  margin-top: 60px;
+  font-family: "poppins";
+  box-sizing: border-box;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 419px;
+  height: 530px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formHeadDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formHead {
+  font-family: "poppins";
+  font-size: 22.55px;
+  font-weight: 500;
+  color: #333333;
+}
+.loginLink {
+  font-family: "poppins";
+  font-size: 11.28px;
+  font-weight: 400;
+  color: #4831d4;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.inputDiv {
+  width: 100%;
+  padding-right: 22px;
+  height: 61.5px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  box-sizing: border-box;
+}
+
+.inputLabel {
+  font-size: 13px;
+  color: #666666;
+  font-weight: 400;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #666666;
+  border-radius: 8.5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.checkboxDiv {
+  display: flex;
+  flex-direction: row;
+  width: 311px;
+  height: 45px;
+  align-items: start;
+  gap: 6px;
+}
+
+.checkboxDes {
+  font-size: 11px;
+  font-weight: 400;
+  color: #323232;
+}
+
+.checkboxDes .termsOfUse,
+.checkboxDes .privacyPolicy {
+  font-size: 11px;
+  font-weight: 400;
+  color: #323232;
+}
+.checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 15px;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  background-color: white;
+  cursor: pointer;
+  position: relative;
+}
+
+.checkbox:checked {
+  background-color: #111111;
+  color: white;
+  border: none;
+}
+
+.checkbox:checked::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  width: 4px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.submitBtn {
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 64px;
+  color: white;
+  background-color: #c3c3c3;
+}
+
+.signupFormBottomText {
+  padding-left: 24px;
+  font-family: "inter";
+  font-size: 12px;
+  font-weight: 400;
+  color: #676b5f;
+}
+
+.signupFormBottomText .googlePrivacyLink,
+.signupFormBottomText .termsOfService {
+  color: #676b5f;
+  text-decoration: underline;
+}
