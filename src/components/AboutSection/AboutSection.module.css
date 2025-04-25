@@ -1,5 +1,5 @@
 .container {
-  padding: 80px 120px;
+  padding: 112px 120px 99px 120px;
   display: flex;
   flex-direction: column;
   gap: 45px;
@@ -24,12 +24,14 @@
   color: #30404d;
   text-align: center;
 }
+
 .aboutDesPar {
   font-size: 18px;
   font-weight: 400;
   color: #30404d;
   text-align: center;
 }
+
 .aboutImage {
   width: 1200px;
   height: 512px;

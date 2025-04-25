@@ -2,8 +2,6 @@
   display: grid;
   grid-template-columns: 1fr 541px;
   width: 1440px;
-  height: 100vh;
-  overflow: hidden;
 }
 
 .navImageDiv {
@@ -24,7 +22,8 @@
 }
 
 .imageDiv {
-  height: 100%;
+  width: 541px;
+  height: 1024px;
   background-color: azure;
 }
 

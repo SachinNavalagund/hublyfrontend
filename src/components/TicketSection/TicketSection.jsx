@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./TicketSection.module.css";
 import Sms from "/sms.svg";
-import Avatar from "../../../public/People.svg";
+import Avatar from "/People.svg";
 import { Link } from "react-router-dom";
 
 const TicketSection = () => {

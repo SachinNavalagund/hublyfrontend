@@ -1,8 +1,9 @@
 .container {
-  padding: 80px 120px 0px 120px;
+  padding: 0px 162px 0px 121px;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
+  height: 754.15px;
 }
 
 .heroTitleDiv {
@@ -12,7 +13,7 @@
   font-family: "barlow";
   height: 261px;
   width: 666px;
-  margin-top: 80px;
+  margin-top: 191px;
 }
 
 .description {
@@ -75,6 +76,9 @@
   width: 492.3;
   height: 577.25;
   position: relative;
+  margin-top: 112.41px;
+  margin-bottom: 68px;
+  box-sizing: border-box;
 }
 
 .heroTopImage {
@@ -83,6 +87,7 @@
   top: -50px;
   left: 320px;
 }
+
 .heroRightImage {
   position: absolute;
   z-index: 99;

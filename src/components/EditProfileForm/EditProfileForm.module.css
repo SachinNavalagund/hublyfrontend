@@ -1,0 +1,167 @@
+.container {
+  width: 1298px;
+  height: 630px;
+  background-color: #fafbfc;
+  display: flex;
+  flex-direction: column;
+  margin: 33px 24px 0px 24px;
+  padding: 24px 35px 24px 35px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  font-family: "poppins";
+}
+
+.formTitleDiv {
+  height: 30px;
+  width: 1228px;
+  border-bottom: 1px solid #737373;
+  position: relative;
+}
+
+.border {
+  width: 133.31px;
+  height: 3px;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+  background-color: #184e7f;
+  color: #184e7f;
+  position: absolute;
+  bottom: 0;
+}
+
+.editBtn {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 16px;
+  color: #184e7f;
+  padding-left: 19px;
+  border: none;
+  background-color: #fafbfc;
+}
+
+.formContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.formInputs {
+  width: 655px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding-left: 27px;
+  padding-right: 27px;
+  margin-top: 20px;
+}
+
+.inputDiv {
+  width: 500px;
+  padding-right: 22px;
+  height: 68px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  box-sizing: border-box;
+}
+
+.inputDivWithInfo {
+  width: 600px;
+  padding-right: 22px;
+  height: 68px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  box-sizing: border-box;
+}
+
+.inputLabel {
+  font-size: 17px;
+  color: #5e5e5e;
+  font-weight: 400;
+}
+
+.input {
+  width: 500px;
+  height: 40px;
+  border: 1px solid #3e3e3e;
+  border-radius: 11.24px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+  box-sizing: border-box;
+}
+
+.inputWithInfoIconDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+.infoWrapper {
+  position: relative;
+}
+
+.infoButton {
+  border: none;
+  background-color: #fafbfc;
+  cursor: pointer;
+}
+
+.infoWrapper:hover .infoDiv {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.infoDiv {
+  width: 251px;
+  height: 46px;
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 17px;
+  left: 50%;
+  z-index: 10;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.infoDiv p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #7c7c7c;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.formSubmitBtn {
+  margin-top: 45px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+}
+
+.submitBtn {
+  width: 222px;
+  height: 50px;
+  background-color: #184e7f;
+  padding-left: 74px;
+  padding-right: 74px;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 18px;
+  color: #fafbfc;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
