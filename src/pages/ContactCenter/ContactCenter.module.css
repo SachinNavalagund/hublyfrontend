@@ -3,9 +3,16 @@
   grid-template-columns: 94px 1fr;
 }
 
-.contactCenterDiv {
+.layout {
+  display: grid;
+  grid-template-columns: 296px 1fr 500px;
+}
+
+.contactCenterChatHeadDiv {
   display: flex;
   flex-direction: column;
+  background-color: #fafbfc;
+  border-right: 1px solid #d1d6da;
 }
 
 .pageHeading {
@@ -15,4 +22,120 @@
   font-size: 18px;
   font-weight: 500;
   color: #6a6b70;
+}
+
+.chatsHeadDiv {
+  width: 284px;
+  margin-top: 77px;
+  margin-left: 6px;
+  margin-right: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatHeading {
+  width: 100%;
+  border-bottom: 1px solid #d7d8d8;
+}
+
+.headingDiv {
+  width: 45px;
+  margin-left: 5px;
+  padding-bottom: 4px;
+  border-radius: 2px;
+  position: relative;
+  overflow: hidden;
+}
+
+.headingDiv::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #b9baba;
+  border-radius: 0 0 2px 2px;
+}
+
+.heading {
+  font-family: "inter";
+  font-size: 14px;
+  font-weight: 500;
+  color: #888888;
+}
+
+/* chats */
+.chats {
+  display: flex;
+  flex-direction: column;
+  margin-top: 11px;
+  gap: 8px;
+  width: 100%;
+}
+
+.chat {
+  width: 284px;
+  height: 48px;
+  padding: 4px 6px 4px 6px;
+  background-color: #efefef;
+  box-sizing: border-box;
+  border-radius: 27px;
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+  align-items: center;
+}
+
+.chatImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+
+.chatInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.chatName {
+  color: #5e9bd5;
+  font-size: 13.5px;
+  font-weight: 600;
+  font-family: "inter";
+}
+
+.chatLatestMessage {
+  color: #9a9b9d;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "inter";
+}
+
+/* chat */
+.contactCenterChatDiv {
+  display: grid;
+  grid-template-rows: 48px 1fr auto;
+}
+
+.ticketHeading {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 540px;
+  border-bottom: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+.ticketHeading span {
+  font-family: "inter";
+  font-weight: 800;
+  font-size: 15px;
+  color: #86898c;
+  box-sizing: border-box;
 }

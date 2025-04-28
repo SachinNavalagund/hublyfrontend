@@ -1,0 +1,66 @@
+.dropDownDiv {
+  position: relative;
+  width: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 15px;
+  box-sizing: border-box;
+}
+
+.dropDownMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4px 13px 4px 15px;
+  align-items: center;
+  height: 38px;
+  width: 490px;
+  border: 1px solid #d1d6da;
+  border-radius: 13px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: white;
+}
+
+.dropDownMenuInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.dropDownMenuInfo span {
+  font-size: 13.5px;
+  font-weight: 400;
+  color: #808080;
+}
+
+.dropDownOptions {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  width: 490px;
+  border: 1px solid #d1d6da;
+  border-radius: 13px;
+  margin-top: 15px;
+  background-color: white;
+}
+
+.dropDownOption {
+  padding: 12px 22px 12px 22px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #d1d6da;
+  cursor: pointer;
+  height: 40px;
+}
+
+.dropDownOption span {
+  font-size: 13.5;
+  font-weight: 400;
+  color: #808080;
+  background-color: white;
+}
+
+.dropDownOption:last-child {
+  border-bottom: none;
+}

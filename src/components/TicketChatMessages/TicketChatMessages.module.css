@@ -1,0 +1,137 @@
+.chatMessageDiv {
+  display: flex;
+  width: 100%;
+  overflow-y: auto;
+  align-items: end;
+  font-family: "inter";
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.chatDateDiv {
+  width: 100%;
+  position: relative;
+  height: 56;
+}
+
+.chatDateBorder {
+  border: 1px solid #d1d6da;
+}
+
+.chatDate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 10;
+  top: -8px;
+  left: 40%;
+  background-color: white;
+  margin-left: 3px;
+  padding-left: 3px;
+  margin-right: 3px;
+  padding-right: 3px;
+  box-sizing: border-box;
+}
+
+.chatDate p {
+  font-size: 13.3px;
+  font-weight: 400;
+  color: #8c8e92;
+}
+
+.chatMessageDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 10px;
+}
+
+.userChat {
+  width: 520px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  gap: 9px;
+}
+
+.userChatImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+
+.userChatInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.userChatName {
+  color: #5e9bd5;
+  font-size: 13.5px;
+  font-weight: 600;
+  font-family: "inter";
+}
+
+.userChatLatestMessage {
+  color: #9a9b9d;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "inter";
+}
+
+.supportChat {
+  width: 520px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  gap: 9px;
+}
+
+.supportChatImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+
+.supportChatInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.supportChatName {
+  color: #5e9bd5;
+  font-size: 13.5px;
+  font-weight: 600;
+  font-family: "inter";
+  text-align: end;
+}
+
+.supportChatLatestMessage {
+  color: #9a9b9d;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "inter";
+  text-align: end;
+}
+
+.missedChat {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.missedChat p {
+  color: #ff0000;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}

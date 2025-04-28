@@ -70,3 +70,7 @@ export const editProfileFormSchema = z
     message: "Password & Confirm Password did not matched",
     path: ["confirmPassword"],
   });
+
+export const chatInputSchema = z.object({
+  chat: z.string().trim().min(1, { message: "Empty chat, message required" }),
+});

@@ -38,3 +38,10 @@ export const footerLinks = [
     links: ["Careers"],
   },
 ];
+
+export const teammates = [
+  { id: 1, name: "Joe Doe", img: "/img.svg" },
+  { id: 2, name: "Jane Doe", img: "/img (1).svg" },
+  { id: 3, name: "Jack Doe", img: "/img (2).svg" },
+  { id: 4, name: "Jill Doe", img: "/img (3).svg" },
+];
